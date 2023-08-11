@@ -43,7 +43,7 @@ body {
     
 }
 
-.box input[type="submit"] {
+/* .box input[type=""] {
     background: none;
     outline: none;
     width: 160px;
@@ -54,12 +54,12 @@ body {
     color: #fff;
     font-size: 18px;
     transition: 1s;
-}
+} */
 
-.box input[type="submit"]:hover {
-    background: #f15d23;
+/* .box input[type="text"]:focus {
+    background:#fff;
     transition: 1s;
-}
+} */
 
 .back{
     font-size: 18px;
@@ -90,17 +90,31 @@ body {
     padding-top: 10px;
 }
 
-.button button{
+.btn{
     background-color: black;
     border: 1px solid #f15d23;
     border-radius: 20px;
     color: #fff;
     font-size: 15px;
     padding: 10px 30px;
+    margin-bottom: 15px;
 }
 
-.button button:hover{
+.btn:hover{
     background-color: #fff;
     transition: 1s;
     color: red;
+}
+
+.signup{
+    margin: 25px 10%;
+}
+.signup p{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.signup a{
+    padding-top: 0%;
+    color: cyan;
 }

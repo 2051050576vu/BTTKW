@@ -106,8 +106,8 @@ a{
     height: 40px;
     margin-left: 20px;
 }
-
 .head{
+    background-color: #fff;
     display: flex;
     padding-top: 20px;
     margin: 20px 10%;
@@ -150,7 +150,7 @@ a{
     border: 1px solid gray;
     border-radius: 5px;
     margin: 25px;
-
+    padding: 9px;
 }
 
 .submit a{
@@ -230,6 +230,7 @@ a{
     width: 55%;
     border: 1px solid gray;
     border-radius: 5px;
+    height: 80%;
 }
 
 .l-body h2{
@@ -323,5 +324,20 @@ a{
     border: 2px solid gray;
     border-radius: 5px;
 }
-
-
+.carousel-indicators{
+    background: #00b14f;
+    opacity: 50%;
+    margin: 0 auto !important;
+    width: 100px;
+}
+.carousel-inner{
+    width: 70% !important;
+    margin: 0 auto;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: grey;
+    border-radius: 15px;
+}
+.carousel-item p{
+    padding: 15px;
+}

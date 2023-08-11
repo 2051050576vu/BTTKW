@@ -193,6 +193,7 @@ a{
     border: 1px solid gray;
     margin: 0 5px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .ctop:hover{
