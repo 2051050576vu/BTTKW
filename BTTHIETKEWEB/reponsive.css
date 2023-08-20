@@ -1,0 +1,39 @@
+@media (max-width: 780px) {
+    #nav-bar ul li {
+        height: 50px;
+        display: block;
+    }
+    #nav-bar{
+        height: fit-content;
+    }
+    #nav-bar li:nth-child(5) {
+        float: none;
+    }
+    #home-page-welcome{
+        padding-top: 280px;
+    }
+    .list {
+        display: inline-block;
+        text-align: center;
+        padding-left: 20%;
+    }
+    .top {
+        display: grid;
+        grid-template-columns: 30% 30%;
+        width: fit-content;
+    }
+    .box-scroll{
+        display: block;
+    }
+    .scroll{
+        margin: 0;
+        width: 100%;
+    }
+    .c-scroll {
+        height: 250px;
+    }
+
+    .children h1 {
+        font-size: 15px !important;
+    }
+}

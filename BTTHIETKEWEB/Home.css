@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+/*Menu*/
+
+ul {
+    list-style: none !important;
+}
+
+a {
+    text-decoration: none !important ;
+}
+
+#nav-bar{
+    background-color: #BEBEBE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 1;
+    margin-bottom: 0px;
+    padding-bottom: 3px;
+}
+
+#nav-bar ul {
+    padding-left: 50px;
+    padding: 18px;
+}
+
+#nav-bar ul li,
+a {
+    color: black !important;
+    font-size: 20px;
+}
+#nav-bar li:nth-child(6){
+    float: right;
+    padding-right: 5px;
+}
+#nav-bar .mobile-menu{
+    display: none;
+}
+#btn-login {
+    background: lightgreen;
+    padding: 15px;
+
+}
+
+#btn-login:hover {
+    opacity: 0.75;
+}
+
+#nav-bar ul li {
+    width: fit-content;
+    display: inline-block;
+    position: relative;
+    padding-right: 40px;
+}
+
+.submenu {
+
+    position: absolute;
+    width: 300px;
+    height: auto;
+    left: 0;
+    top: 100% !important;
+    padding: 12px;
+    display: none;
+
+    background-color: white;
+
+}
+
+.submenu ul.sub-content {
+    display: flex;
+    flex-direction: column;
+    align-items: start !important;
+}
+
+.submenu ul.sub-content li {
+    padding: 10px 0;
+}
+
+#nav-bar ul li:hover .submenu {
+    display: block;
+}
+
+.sub-item:hover {
+    color: green !important;
+}
+
+.sub-item {
+    margin-left: 5px;
+}
+
+ /* đầu trang */
+#home-page-welcome {
+    padding: 80px;
+    margin-top: 5px;
+    background-image: url(images/header-background.png);
+}
+
+#home-page-welcome .container1 {
+    padding-left: 100px;
+}
+
+#selection {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#header-content-left {
+    max-width: 500px;
+    max-height: 600px;
+    padding: 5px;
+}
+
+#car-exp {
+    width: 195px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#car-salary {
+    width: 195px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+#btn-finish {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 400px;
+    background-color: green;
+    color: white;
+}
+
+#video-img {
+
+    width: 400px;
+}
+
+.btn-show-video {
+    margin-top: 20px;
+}
+
+.list-col {
+    display: flex;
+}
+
+.date {
+    margin-left: 10px;
+    color: white;
+}
+
+#header-content-right {
+    max-width: 600px;
+    max-height: 600px;
+    padding: 5px;
+}
+
+.box-work-market {
+    padding: 20px;
+    width: 600px;
+    background-color: darkgreen;
+}
+
+.img-robot {
+    width: 80px;
+}
+
+.content1 {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.box-data-job {
+    display: flex;
+    gap: 10px;
+}
+.up{
+    display: flex;
+}
+.quantity {
+    color: #11d769;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+/* việc làm  */
+.job a{
+    font-size: 15px;
+}
+.job{
+    background-color: #808080BD;
+    margin: 10px auto;
+}
+.job h1{
+    color: #11d769;
+    width: 18%;
+    border-right:3px solid #11d769;
+    padding-top: 10px;
+    margin: 25px 10%;
+    font-weight: bold;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.list{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 10px;
+}
+
+.item{
+    background-color: #fff;
+    height: fit-content;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.item .img img{
+    height: 100px;
+    transition: 0.5s;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.item .img{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.item .content{
+    padding: 10px 30px;
+    color: #333;
+}
+
+.title{
+    font-size: 15px;
+}
+.item .content .des {
+    opacity: .7;
+    margin: 10px 0;
+ }
+
+ .item .content .price{
+    font-size: large;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+ }
+
+ .item .content .add, .money{
+    background-color: gray;
+    padding: 5px;
+    color: #fff;
+    width:40%;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+ }
+
+ .listPage{
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+ }
+
+ .listPage li{
+    background-color: #ffffffBD;
+    padding: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+ }
+
+ .listPage .active{
+    background-color: #11d769;
+    color: #fff;
+ }
+/* hinh anh */
+ .pic img{
+    width: 30%;
+    cursor: pointer;
+    padding-right: 10px;
+    border-radius: 20px;
+ }
+
+ /* Top ngành nghề nổi bật */
+ .top{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.ctop{
+    border: 1px solid gray;
+    margin: 0 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ctop:hover{
+    background-color:grey;
+    transition: 1s;
+}
+
+.s-icon a img{
+    margin-top: 15px;
+    width: 25%;
+}
+.c-text{
+    padding-bottom: 10px;
+}
+.footer{
+    width: 90%;
+    margin: 0 auto;
+}
+.footer h1{
+    font-size: 15px; 
+    padding-top: 10px;
+}
+.box-scroll{
+    display: flex;
+    justify-content: center;
+}
+.scroll{
+    padding: 10px;
+    width: 28%;
+    margin: 20px;
+}
+.children{
+    background: #f3f5f7;
+    border-radius: 10px;
+    padding: 20px;
+}
+.c-scroll{
+    height: 378px;
+    overflow-y: scroll;
+    margin-right: -15px;
+}
+.c-scroll li  {
+    border-bottom: 1px solid #e9eaec;
+    margin-right: 15px;
+    padding: 11px 0;
+    transition: .3s;
+}
+.c-scroll li a{
+    font-size: 14px;
+    color: hsl(212, 31%, 19%);
+    font-weight: 500;
+    line-height: 20px;
+    margin-right: 15px;
+}
+
+.c-scroll li:hover{
+    background-color: #11d769;
+}
+

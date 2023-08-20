@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="reponsive.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/4.5.6/css/ionicons.min.css">
+</head>
+
+<body>
+
+    <nav id="nav-bar">
+        <ul class="main-content">
+            <li>
+                <a href="Home.html">Trang chủ</a>
+            </li>
+            <li>
+                <a href="#">Việc làm</a>
+                <div class="submenu">
+                    <ul class="sub-content">
+
+                        <li>
+                            <i class="fa-solid fa-magnifying-glass"></i> <a href="#" class="sub-item">Tìm việc
+                                làm</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-camera-retro"></i> <a href="#" class="sub-item">Việc làm phù
+                                hợp</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-microchip"></i><a href="#" class="sub-item">Việc làm IT</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-figma"></i><a href="#" class="sub-item">Việc làm intern</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-user-tie"></i><a href="#" class="sub-item">Tìm việc Senior</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">Công ty</a>
+                <div class="submenu">
+                    <ul class="sub-content">
+                        <li>
+                            <i class="fa-solid fa-magnifying-glass"></i> <a href="#" class="sub-item">Danh sách công
+                                ty</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-camera-retro"></i> <a href="#" class="sub-item">Top công ty</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">Phát triển sự nghiệp</a>
+                <div class="submenu">
+                    <ul class="sub-content">
+                        <li>
+                            <i class="fa-solid fa-magnifying-glass"></i> <a href="#" class="sub-item">Trắc nghiệm
+                                tính cách MBT1</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-camera-retro"></i> <a href="#" class="sub-item">Trắc nghiệm tính
+                                cách M1</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-microchip"></i><a href="#" class="sub-item">Top CV Skill</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-figma"></i><a href="#" class="sub-item">Top CV contest</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">Công cụ</a>
+                <div class="submenu">
+                    <ul class="sub-content">
+                        <li>
+                            <i class="fa-solid fa-magnifying-glass"></i> <a href="#" class="sub-item">Tính lương
+                                CROSS-NET</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-camera-retro"></i> <a href="#" class="sub-item">Tính thuế thu nhập
+                                cá nhân</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-microchip"></i><a href="#" class="sub-item">Tính lãi suất kép</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-figma"></i><a href="#" class="sub-item">lập kế hoạch tiết kiệm/a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-user-tie"></i><a href="#" class="sub-item">Tính bảo hiểm thất
+                                nghiệp</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-user-tie"></i><a href="#" class="sub-item">Tính bảo hiểm xã hội
+                                một lần</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-user-tie"></i><a href="#" class="sub-item">Mobile app topCV</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div>
+                    <a id="btn-login" href="login.html" target="_blank">Đăng nhập</a>
+                </div>
+
+            </li>
+        </ul>
+    </nav>
+
+    <script src="javascript.js"></script>
+
+    <div id="home-page-welcome">
+        <div class="container1">
+            <div class="list-col">
+                <div id="header-content-left">
+                    <h1 style="color: white">Cơ hội việc làm cho bạn</h1>
+                    <div>
+                        <input style="margin-top: 20px; width: 400px;height: 50px;border-radius: 10px;padding: 10px;"
+                            id="seacrh" type="text" placeholder="Tìm kiếm">
+                        <input type="date" value="2022/02/20">
+                    </div>
+                    <div id="selection">
+                        <div id="selection-exp">
+                            <select name="cars" id="car-exp">
+                                <option value="volvo">Tất cả kinh nghiệm</option>
+                                <option value="saab">Dưới 1 năm</option>
+                                <option value="opel">1 năm</option>
+                                <option value="audi">2 năm</option>
+                                <option value="audi">3 năm</option>
+                                <option value="audi">4 năm</option>
+                                <option value="audi">5 năm</option>
+                                <option value="audi">Trên 5 năm</option>
+                            </select>
+                        </div>
+                        <div id="selection-salary">
+                            <select name="cars" id="car-salary">
+                                <option value="volvo">Tất cả mức lương</option>
+                                <option value="saab">Dưới 3 triệu</option>
+                                <option value="opel">3-5 triệu</option>
+                                <option value="audi">5-7 triệu</option>
+                                <option value="audi">7-10 triệu</option>
+                                <option value="audi">10-12 triệu</option>
+                                <option value="audi">12-15 triệu</option>
+                                <option value="audi">20-25 triệu</option>
+                                <option value="audi">25-30 triệu</option>
+                                <option value="audi">Trên 30 triệu</option>
+                                <option value="audi">Thỏa thuận</option>
+                            </select>
+                        </div>
+
+                    </div>
+                    <button id="btn-finish">Tìm kiếm</button>
+                    <iframe class="btn-show-video" width="400" height="300"
+                        src="https://www.youtube.com/embed/6wIMRWsHK1Y" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div id="header-content-right">
+                    <div class="box-scroll-work-market">
+                        <div class="header" style="display: flex;">
+
+                            <h3 style="color: white;">
+                                Thị trường việc làm hôm nay:
+                            </h3>
+                            <h2 id="today" class="date">27/07/2023</h2>
+                        </div>
+                        <div class="content1">
+                            <img class="img-responsive img-robot"
+                                src="https://www.topcv.vn/v4/image/welcome/section-header/robot.png" alt="">
+                            <div class="box-scroll-data-job">
+                                <div class="job-hiring">
+                                    <h4 style="color: white;">Việc làm đang tuyển</h4>
+                                    <div class="box-scroll-quantity up">
+                                        <span class="quantity" name="quantity_job_recruitment">31.041</span>
+                                        <div class="status">
+                                            <i class="fa-solid fa-arrow-trend-up"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="seperate"></div>
+                                <div class="job-new">
+                                    <h4 style="color: white;">Việc làm mới 24h gần nhất</h4>
+                                    <div class="box-scroll-quantity">
+                                        <span class="quantity" name="quantity_job_new_today">2.530</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="job">
+        <h1>Việc làm tốt nhất</h1>
+        <div class="container">
+            <div class="list">
+                <div class="item">
+                    <div class="img">
+                        <img src="images/icon/tiểu học bạch mai.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title" title="Chuyên viên IT Hệ Thống"><a href="cty1.html" target="_blank">Chuyên Viên IT Hệ Thống</a>
+                        </div>
+                        <div class="des" title="Công ty TNHH Bảo Hiểm Nhân Thọ Sun Life Việt Nam">
+                            <a href="cty1.html" target="_blank">Trường Tiểu học Bạch Mai</a>
+                        </div>
+                        <div class="address">
+                            <button class="add" title="Quận 5, Quận 3 Hồ Chí Minh"><a href="">Hà Nội</a></button>
+                            <button class="money">Trên 18tr</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/icon/CMCtelecom.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"
+                            title="Chuyên Viên Quản Trị Hệ Thống (System Administrator)/Database Administrator (Dba)"><a
+                                href="cty2.html" target="_blank">Chuyên Viên Quản Trị Hệ Thống ...</a></div>
+                        <div class="des">
+                            <a href="cty2.html" target="_blank" title="Công ty cổ phần viễn thông FPT(FPT telecom) ">Công ty cổ phần viễn thông
+                                FPT</a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="" title="Hà Nội:Hoàng Mai">Hà Nội</a></button>
+                            <button class="money">10-12 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/icon/CTYVietNga.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="cty3.html" target="_blank" title="Chuyên Viên Quản Trị Hệ Thống">Chuyên Viên Quản Trị Hệ Thống</a></div>
+                        <div class="des">
+                            <a href="cty3.html" target="_blank" title="CÔNG TY CỔ PHẦN VIỆN MẮT QUỐC TẾ VIỆT - NGA">CÔNG TY CỔ PHẦN VIỆN MẮT</a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="" title="Hồ Chí Minh: Quận 9">Hồ Chí Minh</a></button>
+                            <button class="money">10-15 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/icon/VMG.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a target="_blank" href="cty4.html" title="Chuyên Viên Quản Trị Hệ Thống">Chuyên Viên Quản Trị Hệ Thống</a></div>
+                        <div class="des">
+                            <a href="cty4.html" target="_blank">Công ty Cổ phần Truyền thông VMG</a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="" title="Hồ Chí Minh: Quận 1, Quận 3">Hồ Chí Minh</a></button>
+                            <button class="money">17-50 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="" title="Nhân Viên Văn Phòng Tiếng Nhật (Tương Đương N3 Trở Lên)">
+                                Nhân Viên Văn Phòng Tiếng Nhật...</a></div>
+                        <div class="des">
+                            <a href="">Công ty TNHH transcosmos Việt Nam</a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="" title="Hà Nội: Hai Bà Trưng">Hà Nội</a></button>
+                            <button class="money">10-15 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href=""
+                                title="Nhân Viên Tư Vấn Data Có Sẵn Làm Việc Tại Vp (Chỉ Tuyển Nữ)">Nhân Viên Tư Vấn
+                                Data</a></div>
+                        <div class="des">
+                            <a href="" title="Công ty Tài Chính TNHH MTV Shinhan Việt Nam ">Công ty Tài Chính TNHH
+                                ...</a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="" title="Hồ Chí Minh: Tân Bình">Hồ Chí Minh</a></button>
+                            <button class="money">10-15 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href=""
+                                title="Nhân Viên Kinh Doanh (Nam) - Thu Nhập Từ 10 - 20 Triệu Tại Hà Nội - Tp. HCM">Nhân
+                                Viên Kinh Doanh (Nam)</a>
+                        </div>
+                        <div class="des">
+                            <a href="" title="CÔNG TY CỔ PHẦN THƯƠNG MẠI NHÔM VĨNH HƯNG">CÔNG TY CỔ PHẦN THƯƠNG
+                                MẠI...</a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="" title="Hồ Chí Minh: Quận 12">Hồ Chí Minh</a></button>
+                            <button class="money">10-20 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="" title="Nhân Viên Kiểm Thử Phần Mềm (Manual Tester)">
+                                Nhân Viên Kiểm Thử Phần Mềm
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="Công ty TNHH Phần mềm và Dịch vụ công nghệ STS">
+                                Công ty TNHH Phần mềm và Dịch vụ...
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="" title="Hà Nội: Hai Bà Trưng">Hà Nội</a></button>
+                            <button class="money">Trên 12 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href=""
+                                title="Kỹ Sư Hệ Thống CNTT (System Engineer) - Lương Từ 15 - 25 Triệu">
+                                Kỹ Sư Hệ Thống CNTT
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="TẬP ĐOÀN CÔNG NGHIỆP - VIỄN THÔNG QUÂN ĐỘI">
+                                TẬP ĐOÀN CÔNG NGHIỆP
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Hà Nội</a></button>
+                            <button class="money">15-25 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="" title="Kỹ Sư Cơ Khí (Mechanical Engineer) - Hà Nội">
+                                Kỹ Sư Cơ Khí (Mechanical Engineer)
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="CÔNG TY TNHH HSING RISE VIETNAM ENGINEERING">
+                                CÔNG TY TNHH HSING RISE VIETNAM ENGINEERING
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Hà Nội</a></button>
+                            <button class="money">Thỏa thuận</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href=""
+                                title="Giảng Viên Lập Trình Khối K12 Full-Time Lương Upto 15Tr (Toàn Quốc)">
+                                Giảng Viên Lập Trình Khối K12 Full-Time
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="CÔNG TY CỔ PHẦN TRƯỜNG HỌC CÔNG NGHỆ MINDX">
+                                CÔNG TY CỔ PHẦN TRƯỜNG HỌC...
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="" title="Hồ Chí Minh: Quận 1">Hồ Chí Minh</a></button>
+                            <button class="money">7-12 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href=""
+                                title="Nhân Viên Kinh Doanh (Thu Nhập Trên 15 Triệu, Không Áp Kpi, Gò Vấp)">
+                                Nhân Viên Kinh Doanh
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="CÔNG TY CỔ PHẦN TRUYỀN THÔNG VÀ CÔNG NGHỆ ĐẠI VIỆT">
+                                CÔNG TY CỔ PHẦN TRUYỀN THÔNG...
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="" title="Hồ Chí Minh: Gò Vấp">Hồ Chí Minh</a></button>
+                            <button class="money">trên 15 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href=""
+                                title="Nhân Viên Kinh Doanh - Bán Hàng Tại Hà Nội (Thu Nhập Từ 7 - 15 Triệu)">
+                                Nhân Viên Kinh Doanh - Bán Hàng
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="CÔNG TY CỔ PHẦN THỜI TRANG QUỐC TẾ VIỆT TAILOR">
+                                CÔNG TY CỔ PHẦN THỜI TRANG...
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="" title="Hà Nội: Hoàn Kiếm">Hà Nội</a></button>
+                            <button class="money">7-15 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href=""
+                                title="Nhân Viên Kinh Doanh /Sales(Cam Kết Thu Nhập Trên 40 Triệu Mỗi Tháng )">
+                                Nhân Viên Kinh Doanh /Sales
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="CÔNG TY TNHH ĐẦU TƯ THƯƠNG MẠI PLS">
+                                CÔNG TY TNHH ĐẦU TƯ...
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Hồ Chí Minh</a></button>
+                            <button class="money">40-100 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="" title="Thực Tập Sinh (Dự Án G2B)">
+                                Thực Tập Sinh (Dự Án G2B)
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="CÔNG TY TNHH GLODIVAL">
+                                CÔNG TY TNHH GLODIVAL
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="" title="Hồ Chí Minh: Bình Thạnh">Hồ Chí Minh</a></button>
+                            <button class="money">trên 3 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href=""
+                                title="Chuyên Viên Marketing - Thu Nhập Từ 10Tr-15Tr - Làm Giờ Hành Chính">
+                                Chuyên Viên Marketing
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="Ausvin Pharma Co., Ltd">Ausvin Pharma Co., Ltd</a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="" title="Hồ Chí Minh: Bình Thạnh">Hồ Chí Minh</a></button>
+                            <button class="money">10-15 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="" title="Kỹ Sư Cơ Khí (Mechanical Engineer) - Hà Nội">
+                                Kỹ Sư Cơ Khí
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="CÔNG TY TNHH HSING RISE VIETNAM ENGINEERING">
+                                CÔNG TY TNHH HSING RISE...
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Hà Nội</a></button>
+                            <button class="money">8-10 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="" title="Giáo Viên Lịch Sử_Phổ Thông Cao Đẳng Fpt Tây Nguyên">
+                                Giáo Viên Lịch Sử...
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="Phân hiệu Trường Đại học FPT tại thành phố Hồ Chí Minh">
+                                Phân hiệu Trường Đại học FPT
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Đắk Lắk</a></button>
+                            <button class="money">Thỏa thuận</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="" title="Chuyên Viên Khcn Mảng Tín Chấp - Chi Nhánh Tân Bình">
+                                Chuyên Viên Khcn Mảng Tín Chấp
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="Ngân Hàng TNHH MTV Shinhan Việt Nam">
+                                Ngân Hàng TNHH MTV Shinhan
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Hồ Chí Minh</a></button>
+                            <button class="money">trên 8 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="" title="Giảng Viên Khoa Học Máy Tính">
+                                Giảng Viên Khoa Học Máy Tính
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="Trường Đại học CMC">
+                                Trường Đại học CMC
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Hà Nội</a></button>
+                            <button class="money">15-35 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="" title="Digital Marketing App ( Ua Marketing )">
+                                Digital Marketing App
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="CÔNG TY CỔ PHẦN PHÁT TRIỂN GIẢI PHÁP VÀ CÔNG NGHỆ THÔNG TIN VIỆT NAM">
+                                CÔNG TY CỔ PHẦN PHÁT TRIỂN...
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Hà Nội</a></button>
+                            <button class="money">7-13 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="" title="Senior Tester">Senior Tester</a></div>
+                        <div class="des">
+                            <a href="" title="INFINIQ Vietnam Co.,ltd">INFINIQ Vietnam Co.,ltd</a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Hà Nội</a></button>
+                            <button class="money">Thỏa thuận</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href=""
+                                title="Senior Backend Developer (Java - Spring Boot) (Thu Nhập 25-45M + Thưởng Cuối Năm)">
+                                Senior Backend Developer...
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="CÔNG TY CỔ PHẦN THƯƠNG MẠI VÀ DỊCH VỤ CÔNG NGHỆ GTSC VIỆT NAM">
+                                CÔNG TY CỔ PHẦN THƯƠNG MẠI...
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Hà Nội</a></button>
+                            <button class="money">25-45 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href=""
+                                title="Nhân Viên Kinh Doanh Phần Mềm Misa Amis (Lương Cứng: 8M Đến 12M + Hoa Hồng Cạnh Tranh)">
+                                Nhân Viên Kinh Doanh Phần Mềm Misa
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="Công ty Cổ phần MISA">Công ty Cổ phần MISA</a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Hà Nội</a></button>
+                            <button class="money">15-25 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="" title="Nhân Viên Thiết Kế Hvac">Nhân Viên Thiết Kế Hvac</a></div>
+                        <div class="des">
+                            <a href="" title="CÔNG TY TNHH CÔNG NGHỆ ANJIEXIN (VIỆT NAM)">CÔNG TY TNHH CÔNG NGHỆ...</a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Hà Nội</a></button>
+                            <button class="money">11-15 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="" title="Điều Hành Tour Du Lịch Thu Nhập Đến 20 Triệu">
+                                Điều Hành Tour Du Lịch Thu Nhập
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="CÔNG TY CP DU LỊCH PSV TRAVEL">CÔNG TY CP DU LỊCH PSV TRAVEL</a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Hồ Chí Minh</a></button>
+                            <button class="money">10-20 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="img">
+                        <img src="images/cong-ty-cp-duoc-pham-thai-minh-5adda3bf077f6_rs.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title"><a href="" title="Nhân Viên Tín Dụng - Thu Nhập Từ 10 - 30 Triệu">
+                                Nhân Viên Tín Dụng
+                            </a></div>
+                        <div class="des">
+                            <a href="" title="Ngân hàng TMCP quốc tế - CN Hai Bà Trưng">
+                                Ngân hàng TMCP quốc tế
+                            </a>
+                        </div>
+                        <div class="address">
+                            <button class="add"><a href="">Hà Nội</a></button>
+                            <button class="money">10-30 triệu</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <ul class="listPage">
+
+            </ul>
+        </div>
+    </div>
+
+    <div class="pic" style="text-align: center;">
+        <img src="images/Sản phẩm_ dịch vụ 2.jpg" alt="">
+        <img src="images/Giá trị.jpg" alt="">
+        <img src="images/Sản phẩm_ dịch vụ 1.jpg" alt="">
+    </div>
+
+    <div class="top">
+        <div class="ctop">
+            <div class="s-icon">
+                <a> <img src="images/giao-duc-dao-tao.png" alt="Giáo dục và đào tạo "> </a>
+            </div>
+            <div class="c-text">
+                <h3>
+                    <a href="" style="font-size: 15px;">Giáo dục/Đào tạo</a>
+                </h3>
+            </div>
+        </div>
+        <div class="ctop">
+            <div class="s-icon">
+                <a> <img src="images/hanh-chinh-van-phong.png" alt="Giáo dục và đào tạo "> </a>
+            </div>
+            <div class="c-text">
+                <h3>
+                    <a href="" style="font-size: 15px;">Hành chính/văn Phòng</a>
+                </h3>
+            </div>
+        </div>
+        <div class="ctop">
+            <div class="s-icon">
+                <a> <img src="images/IT-PhanMem.png" alt="Giáo dục và đào tạo ">
+                </a>
+            </div>
+            <div class="c-text">
+                <h3>
+                    <a href="" style="font-size: 15px;">IT Phần mềm</a>
+                </h3>
+            </div>
+        </div>
+        <div class="ctop">
+            <div class="s-icon">
+                <a> <img src="images/ke-toan-kiem-toan.png" alt="Giáo dục và đào tạo "> </a>
+            </div>
+            <div class="c-text">
+                <h3>
+                    <a href="" style="font-size: 15px;">Kế toán/Kiểm toán</a>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="top">
+        <div class="ctop">
+            <div class="s-icon">
+                <a> <img src="images/kinhdoanh.png" alt="Giáo dục và đào tạo "> </a>
+            </div>
+            <div class="c-text">
+                <h3>
+                    <a href="" style="font-size: 15px;">Kinh doanh/Bán hàng</a>
+                </h3>
+            </div>
+        </div>
+        <div class="ctop">
+            <div class="s-icon">
+                <a> <img src="images/marketing-truyen-thong-quang-cao.png" alt="Giáo dục và đào tạo "> </a>
+            </div>
+            <div class="c-text">
+                <h3>
+                    <a href="" style="font-size: 15px;">Marketing/Truyền thông</a>
+                </h3>
+            </div>
+        </div>
+        <div class="ctop">
+            <div class="s-icon">
+                <a> <img src="images/tu-van.png" alt="Giáo dục và đào tạo "> </a>
+            </div>
+            <div class="c-text">
+                <h3>
+                    <a href="" style="font-size: 15px;">Tư vấn</a>
+                </h3>
+            </div>
+        </div>
+        <div class="ctop">
+            <div class="s-icon">
+                <a> <img src="images/van-tai-kho-van.png" alt="Giáo dục và đào tạo "> </a>
+            </div>
+            <div class="c-text">
+                <h3>
+                    <a href="" style="font-size: 15px;">Vận tải/Kho vận</a>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <script src="designer.js"></script>
+
+    <div class="footer">
+        <h1>Cơ hội ứng tuyển việc làm với đãi ngộ hấp dẫn tại các công ty hàng đầu</h1>
+        <p style="padding-top: 10px;">Trước sự phát triển vượt bậc của nền kinh tế, rất nhiều ngành nghề trở nên
+            khan hiếm nhân lực hoặc thiếu nhân lực giỏi
+            . Vì vậy, hầu hết các trường Đại học đều liên kết với các công ty, doanh nghiệp, cơ quan để tạo cơ hội
+            cho các bạn sinh
+            viên được học tập, rèn luyện bản thân và làm quen với môi trường làm việc từ sớm. Trong danh sách việc
+            làm trên đây,
+            TopCV mang đến cho bạn những cơ hội việc làm tại những môi trường làm việc năng động, chuyên nghiệp.</p>
+        <h1>Vậy tại sao nên tìm việc làm tại TopCV?</h1>
+        <h1>Việc làm Chất lượng</h1>
+        <ul style="padding: 15px;">
+            <li style="list-style: disc; margin-left: 15px;">Hàng ngàn tin tuyển dụng chất lượng cao được cập nhật
+                thường xuyên để đáp ứng nhu cầu tìm việc của
+                ứng viên.</li>
+            <li style="list-style: disc; margin-left: 15px;">Hệ thống thông minh tự động gợi ý các công việc phù hợp
+                theo CV của bạn.</li>
+        </ul>
+        <h1>Công cụ viết CV đẹp Miễn phí</h1>
+        <ul style="padding: 15px;">
+            <li style="list-style: disc; margin-left: 15px;">Nhiều mẫu CV đẹp, phù hợp nhu cầu ứng tuyển các vị trí
+                khác nhau.</li>
+            <li style="list-style: disc; margin-left: 15px;">Tương tác trực quan, dễ dàng chỉnh sửa thông tin, tạo
+                CV online nhanh chóng trong vòng 5 phút.</li>
+        </ul>
+        <h1>Hỗ trợ Người tìm việc</h1>
+        <ul style="padding: 15px;">
+            <li style="list-style: disc; margin-left: 15px;">Nhà tuyển dụng chủ động tìm kiếm và liên hệ với bạn qua
+                hệ thống kết nối ứng viên thông minh.</li>
+            <li style="list-style: disc; margin-left: 15px;">Báo cáo chi tiết Nhà tuyển dụng đã xem CV và gửi offer
+                tới bạn.</li>
+        </ul>
+        <p>Tại TopCV, bạn có thể tìm thấy những tin tuyển dụng việc làm với mức lương vô cùng hấp dẫn. Những nhà
+            tuyển dụng kết nối với TopCV đều là những công ty lớn tại Việt Nam, nơi bạn có thể làm việc trong một
+            môi trường chuyên nghiệp, năng động, trẻ trung. TopCV là nền tảng tuyển dụng công nghệ cao giúp các nhà
+            tuyển dụng và ứng viên kết nối với nhau. Nhanh tay tạo CV để ứng tuyển vào các vị trí việc làm mới nhất
+            hấp dẫn tại việc làm mới nhất tại Hà Nội, việc làm mới nhất tại TP.HCM ở TopCV, bạn sẽ tìm thấy những
+            việc làm mới nhất với mức lương tốt nhất!</p>
+    </div>
+    <h2 style="margin: 20px 5%; border-right:3px solid; width: 33%;">Từ khóa tìm việc làm phổ biến tại TopCV</h2>
+    <div class="box-scroll">
+        <div class="scroll">
+            <div class="children">
+                <h1 style="font-size: 20px; padding-bottom: 8px;">Tìm việc theo ngành nghề </h1>
+                <div class="c-scroll">
+                    <ul>
+                        <li><a href="">Việc làm An toàn lao động</a></li>
+                        <li><a href="">Việc làm Bán hàng kỹ thuật</a></li>
+                        <li><a href="">Việc làm Bán lẻ/ bán sỉ</a></li>
+                        <li><a href="">Việc làm Báo chí/ Truyền hình</a></li>
+                        <li><a href="">Việc làm Bảo hiểm</a></li>
+                        <li><a href="">Việc làm Bảo trì/ Sửa chữa</a></li>
+                        <li><a href="">Việc làm Bất động sản</a></li>
+                        <li><a href="">Việc làm Biên/ Phiên dịch</a></li>
+                        <li><a href="">Việc làm Bưu chính - Viễn thông</a></li>
+                        <li><a href="">Việc làm Chứng khoán/ Vàng/ Ngoại tệ</a></li>
+                        <li><a href="">Việc làm Cơ khí/ Chế tạo/ Tự động hóa</a></li>
+                        <li><a href="">Việc làm Công nghệ cao</a></li>
+                        <li><a href="">Việc làm Ô tô</a></li>
+                        <li><a href="">Việc làm Công nghệ thông tin</a></li>
+                        <li><a href="">Việc làm Dầu khí/ Hóa chất</a></li>
+                        <li><a href="">Việc làm Dệt may/ Da giày</a></li>
+                        <li><a href="">Việc làm Địa chất/ Khoáng sản</a></li>
+                        <li><a href="">Việc làm Dịch vụ khách hàng</a></li>
+                        <li><a href="">Việc làm Điện/ Điện tử/ Điện lạnh</a></li>
+                        <li><a href="">Việc làm Điện tử viễn thông</a></li>
+                        <li><a href="">Việc làm Du lịch</a></li>
+                        <li><a href="">Việc làm Dược phẩm/ Công nghệ sinh học</a></li>
+                        <li><a href="">Việc làm Giáo dục/ Đào tạo</a></li>
+                        <li><a href="">Việc làm Hàng hải</a></li>
+                        <li><a href="">Việc làm Hàng không</a></li>
+                        <li><a href="">Việc làm Hàng tiêu dùng</a></li>
+                        <li><a href="">Việc làm Hành chính/ Văn phòng</a></li>
+                        <li><a href="">Việc làm Hóa học/ Sinh học</a></li>
+                        <li><a href="">Việc làm IT phần mềm</a></li>
+                        <li><a href="">Việc làm Kiến trúc</a></li>
+                        <li><a href="">Việc làm Logistics</a></li>
+                        <li><a href="">Việc làm Luật/ Pháp lý</a></li>
+                        <li><a href="">Việc làm Marketing/ Truyền thông/ Quảng cáo</a></li>
+                        <li><a href="">Việc làm Nhân sự</a></li>
+                        <li><a href="">Việc làm Sản xuất</a></li>
+                        <li><a href="">Việc làm Thòi trang</a></li>
+                        <li><a href="">Việc làm Tư vấn</a></li>
+                        <li><a href="">Việc làm Xây dụng</a></li>
+                        <li><a href="">Việc làm Vận tải/ Kho vận</a></li>
+                        <li><a href="">Việc làm Y tế/ Dược</a></li>
+                        <li><a href="">Việc làm Thiết kế đồ họa</a></li>
+                        <li><a href="">Việc làm Thư ký/ Trợ lý</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll">
+            <div class="children">
+                <h1 style="font-size: 20px; padding-bottom: 8px;">Tìm việc làm tại nhà </h1>
+                <div class="c-scroll">
+                    <ul>
+                        <li><a href="">Việc làm tại Hà Nội</a></li>
+                        <li><a href="">Việc làm tại Hồ Chí Minh</a></li>
+                        <li><a href="">Việc làm tại Bình Dương</a></li>
+                        <li><a href="">Việc làm tại Bắc Ninh</a></li>
+                        <li><a href="">Việc làm tại Đồng Nai</a></li>
+                        <li><a href="">Việc làm tại Hưng Yên</a></li>
+                        <li><a href="">Việc làm tại Hải Dương</a></li>
+                        <li><a href="">Việc làm tại Đà Nẵng</a></li>
+                        <li><a href="">Việc làm tại Hải Phòng</a></li>
+                        <li><a href="">Việc làm tại An Giang</a></li>
+                        <li><a href="">Việc làm tại Bà Rịa - Vũng Tàu</a></li>
+                        <li><a href="">Việc làm tại Bắc Giang</a></li>
+                        <li><a href="">Việc làm tại Bắc Kạn</a></li>
+                        <li><a href="">Việc làm tại Bạc Liêu</a></li>
+                        <li><a href="">Việc làm tại Bến Tre</a></li>
+                        <li><a href="">Việc làm tại Bình Định </a></li>
+                        <li><a href="">Việc làm tại Bình Phước</a></li>
+                        <li><a href="">Việc làm tại Bình Thuận</a></li>
+                        <li><a href="">Việc làm tại Cà Mau</a></li>
+                        <li><a href="">Việc làm tại Cần Thơ</a></li>
+                        <li><a href="">Việc làm tại Cao Bằng</a></li>
+                        <li><a href="">Việc làm tại Cửu Long</a></li>
+                        <li><a href="">Việc làm tại Đắk Lắk</a></li>
+                        <li><a href="">Việc làm tại Đắk Nông</a></li>
+                        <li><a href="">Việc làm tại Điện Biên</a></li>
+                        <li><a href="">Việc làm tại Đồng Tháp</a></li>
+                        <li><a href="">Việc làm tại Gia Lai</a></li>
+                        <li><a href="">Việc làm tại Hà Giang</a></li>
+                        <li><a href="">Việc làm tại Hà Nam</a></li>
+                        <li><a href="">Việc làm tại Hà Tĩnh</a></li>
+                        <li><a href="">Việc làm tại Hậu Giang</a></li>
+                        <li><a href="">Việc làm tại Hòa Bình</a></li>
+                        <li><a href="">Việc làm tại Khánh Hòa</a></li>
+                        <li><a href="">Việc làm tại Kiên Giang</a></li>
+                        <li><a href="">Việc làm tại Kon Tum</a></li>
+                        <li><a href="">Việc làm tại Lai Châu</a></li>
+                        <li><a href="">Việc làm tại Lâm Đồng</a></li>
+                        <li><a href="">Việc làm tại Lạng Sơn</a></li>
+                        <li><a href="">Việc làm tại Lào Cai</a></li>
+                        <li><a href="">Việc làm tại Long An</a></li>
+                        <li><a href="">Việc làm tại Nam Định</a></li>
+                        <li><a href="">Việc làm tại Nghệ An</a></li>
+                        <li><a href="">Việc làm tại Ninh Bình</a></li>
+                        <li><a href="">Việc làm tại Ninh Thuận</a></li>
+                        <li><a href="">Việc làm tại Phú Thọ</a></li>
+                        <li><a href="">Việc làm tại Phú Yên</a></li>
+                        <li><a href="">Việc làm tại Quảng Bình</a></li>
+                        <li><a href="">Việc làm tại Quảng Nam</a></li>
+                        <li><a href="">Việc làm tại Quảng Ngãi</a></li>
+                        <li><a href="">Việc làm tại Quảng Ninh</a></li>
+                        <li><a href="">Việc làm tại Quảng Trị</a></li>
+                        <li><a href="">Việc làm tại Sóc Trăng</a></li>
+                        <li><a href="">Việc làm tại Sơn La</a></li>
+                        <li><a href="">Việc làm tại Tây Ninh</a></li>
+                        <li><a href="">Việc làm tại Thái Bình</a></li>
+                        <li><a href="">Việc làm tại Thái Nguyên</a></li>
+                        <li><a href="">Việc làm tại Thanh Hóa</a></li>
+                        <li><a href="">Việc làm tại Thừa Thiên Huế</a></li>
+                        <li><a href="">Việc làm tại Tiền Giang</a></li>
+                        <li><a href="">Việc làm tại Trà Vinh</a></li>
+                        <li><a href="">Việc làm tại Tuyên Quang</a></li>
+                        <li><a href="">Việc làm tại Vĩnh Long</a></li>
+                        <li><a href="">Việc làm tại Vĩnh Phúc</a></li>
+                        <li><a href="">Việc làm tại Yên Bái</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll">
+            <div class="children">
+                <h1 style="font-size: 20px; padding-bottom: 8px;">Việc làm phổ biến</h1>
+                <div class="c-scroll">
+                    <ul>
+                        <li><a href="">Tìm việc làm Thực tập sinh</a></li>
+                        <li><a href="">Tìm việc làm Trợ giảng</a></li>
+                        <li><a href="">Tìm việc làm Giáo viên</a></li>
+                        <li><a href="">Tìm việc làm Thư ký</a></li>
+                        <li><a href="">Tìm việc làm Nhân viên kỹ thuật</a></li>
+                        <li><a href="">Tìm việc làm IT Helpdesk</a></li>
+                        <li><a href="">Tìm việc làm Lập trình viên PHP</a></li>
+                        <li><a href="">Tìm việc làm Lập trình viên Javascript</a></li>
+                        <li><a href="">Tìm việc làm Lập trình viên ReactJS</a></li>
+                        <li><a href="">Tìm việc làm Lập trình viên VueJS</a></li>
+                        <li><a href="">Tìm việc làm Lập trình viên NodeJS</a></li>
+                        <li><a href="">Tìm việc làm Lập trình viên Java</a></li>
+                        <li><a href="">Tìm việc làm Lập trình viên Front-End</a></li>
+                        <li><a href="">Tìm việc làm Lập trình viên Back-End</a></li>
+                        <li><a href="">Tìm việc làm Lập trình viên iOS</a></li>
+                        <li><a href="">Tìm việc làm Lập trình viên Android</a></li>
+                        <li><a href="">Tìm việc làm Lập trình viên Mobile</a></li>
+                        <li><a href="">Tìm việc làm Tester</a></li>
+                        <li><a href="">Tìm việc làm Business Analyst</a></li>
+                        <li><a href="">Tìm việc làm Data Analyst</a></li>
+                        <li><a href="">Tìm việc làm Lập trình viên</a></li>
+                        <li><a href="">Tìm việc làm Fullstack Developer</a></li>
+                        <li><a href="">Tìm việc làm Unity Developer</a></li>
+                        <li><a href="">Tìm việc làm Nhân viên Telesales</a></li>
+                        <li><a href="">Tìm việc làm Nhân viên kinh doanh</a></li>
+                        <li><a href="">Tìm việc làm Trưởng phòng kinh doanh</a></li>
+                        <li><a href="">Tìm việc làm Trưởng nhóm kinh doanh</a></li>
+                        <li><a href="">Tìm việc làm Giám đốc kinh doanh</a></li>
+                        <li><a href="">Tìm việc làm Sales Manager</a></li>
+                        <li><a href="">Tìm việc làm Giám sát bán hàng</a></li>
+                        <li><a href="">Tìm việc làm Chuyên viên quan hệ khách hàng</a></li>
+                        <li><a href="">Tìm việc làm Trưởng nhóm bán hàng</a></li>
+                        <li><a href="">Tìm việc làm Quản lý nhà hàng</a></li>
+                        <li><a href="">Tìm việc làm Quản lý bán hàng</a></li>
+                        <li><a href="">Tìm việc làm Trợ lý kinh doanh</a></li>
+                        <li><a href="">Tìm việc làm Quản lý cửa hàng</a></li>
+                        <li><a href="">Tìm việc làm Thực tập sinh kinh doanh</a></li>
+                        <li><a href="">Tìm việc làm Kinh doanh</a></li>
+                        <li><a href="">Tìm việc làm Trưởng phòng chăm sóc khách hàng</a></li>
+                        <li><a href="">Tìm việc làm Nhân viên chăm sóc khách hàng</a></li>
+                        <li><a href="">Tìm việc làm Nhân viên phát triển thị trường</a></li>
+                        <li><a href="">Tìm việc làm Nhân viên Marketing</a></li>
+                        <li><a href="">Tìm việc làm Marketing Manager</a></li>
+                        <li><a href="">Tìm việc làm Trường nhóm Marketing</a></li>
+                        <li><a href="">Tìm việc làm Digital Marketing</a></li>
+                        <li><a href="">Tìm việc làm Marketing online</a></li>
+                        <li><a href="">Tìm việc làm Content</a></li>
+                        <li><a href="">Tìm việc làm Content Marketing</a></li>
+                        <li><a href="">Tìm việc làm Content Writer</a></li>
+                        <li><a href="">Tìm việc làm Content Creator</a></li>
+                        <li><a href="">Tìm việc làm Copywrite</a></li>
+                        <li><a href="">Tìm việc làm Video Editor</a></li>
+                        <li><a href="">Tìm việc làm Nhân viên Quay/Dựng video</a></li>
+                        <li><a href="">Tìm việc làm Thực tập sinh Marketing</a></li>
+                        <li><a href="">Tìm việc làm Nhân viên SEO</a></li>
+                        <li><a href="">Tìm việc làm tiếng Hàn</a></li>
+                        <li><a href="">Tìm việc làm tiếng Nhật</a></li>
+                        <li><a href="">Tìm việc làm tiếng Trung</a></li>
+                        <li><a href="">Tìm việc làm tiếng Anh</a></li>
+                        <li><a href="">Tìm việc làm Biên phiên dịch tiếng Hàn</a></li>
+                        <li><a href="">Tìm việc làm Biên phiên dịch tiếng Nhật</a></li>
+                        <li><a href="">Tìm việc làm Biên phiên dịch tiếng Trung</a></li>
+                        <li><a href="">Tìm việc làm Biên phiên dịch tiếng Anh</a></li>
+                        <li><a href="">Tìm việc làm Giáo viên tiếng Hàn</a></li>
+                        <li><a href="">Tìm việc làm Giáo viên tiếng Nhật</a></li>
+                        <li><a href="">Tìm việc làm Giáo viên tiếng Trung</a></li>
+                        <li><a href="">Tìm việc làm Giáo viên tiếng Anh</a></li>
+                        <li><a href="">Tìm việc làm Thiết kế đồ họa/Designer</a></li>
+                        <li><a href="">Tìm việc làm Thiết kế nội thất</a></li>
+                        <li><a href="">Tìm việc làm Thiết kế website</a></li>
+                        <li><a href="">Tìm việc làm Trưởng phòng nhân sự</a></li>
+                        <li><a href="">Tìm việc làm Tuyển dụng nhân sự</a></li>
+                        <li><a href="">Tìm việc làm Hành chính nhân sự</a></li>
+                        <li><a href="">Tìm việc làm Nhân viên văn phòng</a></li>
+                        <li><a href="">Tìm việc làm Truyền thông nội bộ</a></li>
+                        <li><a href="">Tìm việc làm Truyền thông</a></li>
+                        <li><a href="">Tìm việc làm Nhân viên tư vấn</a></li>
+                        <li><a href="">Tìm việc làm Tư vấn tài chính</a></li>
+                        <li><a href="">Tìm việc làm Kế toán trưởng</a></li>
+                        <li><a href="">Tìm việc làm Nhân viên kế toán</a></li>
+                        <li><a href="">Tìm việc làm Kế toán kho</a></li>
+                        <li><a href="">Tìm việc làm Kế toán bán hàng</a></li>
+                        <li><a href="">Tìm việc làm Ngân hàng</a></li>
+                        <li><a href="">Tìm việc làm Kỹ sư cơ khí</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
